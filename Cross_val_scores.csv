@@ -1,0 +1,22 @@
+,Feat_sel_method,Best_features,LinearRegression,Ridge,RandomForestRegressor,DecisionTree,AdaBoost,GradBoost,AdaBoost_LinReg
+0,SFS,"Index(['Men', 'Women', 'Black', 'Asian', 'Pacific', 'VotingAgeCitizen',
+       'Poverty', 'ChildPoverty', 'Professional', 'Service', 'Office',
+       'Construction', 'Production', 'Walk', 'OtherTransp', 'WorkAtHome',
+       'MeanCommute', 'Employed', 'PublicWork', 'FamilyWork'],
+      dtype='object')",0.8093 - 0.018,0.8093 - 0.018,0.8518 - 0.018,0.692 - 0.027,0.6686 - 0.016,0.8431 - 0.018,0.8052 - 0.017
+1,SBS,"Index(['Men', 'Women', 'Black', 'Asian', 'Pacific', 'VotingAgeCitizen',
+       'Poverty', 'ChildPoverty', 'Professional', 'Service', 'Construction',
+       'Production', 'Walk', 'WorkAtHome', 'MeanCommute', 'Employed',
+       'PrivateWork', 'PublicWork', 'SelfEmployed', 'FamilyWork'],
+      dtype='object')",0.8097 - 0.018,0.8097 - 0.018,0.852 - 0.019,0.6928 - 0.027,0.6574 - 0.019,0.8427 - 0.018,0.8063 - 0.017
+2,RandomForest,"['Professional', 'Poverty', 'MeanCommute', 'Men', 'VotingAgeCitizen', 'Production', 'PublicWork', 'ChildPoverty', 'Drive', 'Black', 'Asian', 'Service', 'WorkAtHome', 'Construction', 'White', 'Women', 'Walk', 'Unemployment', 'Hispanic', 'SelfEmployed']",0.8058 - 0.02,0.8058 - 0.02,0.851 - 0.019,0.6893 - 0.027,0.6617 - 0.02,0.8418 - 0.02,0.8019 - 0.019
+3,RFE,"Index(['Men', 'Women', 'Hispanic', 'White', 'Black', 'Asian', 'Pacific',
+       'VotingAgeCitizen', 'Poverty', 'ChildPoverty', 'Professional',
+       'Service', 'Office', 'Production', 'Drive', 'Walk', 'WorkAtHome',
+       'MeanCommute', 'Employed', 'PrivateWork', 'PublicWork', 'SelfEmployed'],
+      dtype='object')",0.8071 - 0.019,0.8071 - 0.019,0.8514 - 0.019,0.6946 - 0.032,0.6578 - 0.019,0.8414 - 0.019,0.8037 - 0.018
+4,SelectKBest,"['Men', 'Women', 'White', 'Black', 'Asian', 'VotingAgeCitizen', 'Poverty', 'ChildPoverty', 'Professional', 'Office', 'Production', 'Drive', 'Walk', 'WorkAtHome', 'MeanCommute', 'Employed', 'PrivateWork', 'PublicWork', 'SelfEmployed', 'Unemployment']",0.8056 - 0.02,0.8056 - 0.02,0.8504 - 0.019,0.6917 - 0.027,0.6667 - 0.03,0.841 - 0.02,0.8013 - 0.019
+5,CommonFeatures,"['Asian' 'Black' 'ChildPoverty' 'MeanCommute' 'Men' 'Poverty' 'Production'
+ 'Professional' 'PublicWork' 'VotingAgeCitizen' 'Walk' 'Women'
+ 'WorkAtHome']",0.8071 - 0.019,0.8071 - 0.019,0.8502 - 0.019,0.6945 - 0.026,0.6632 - 0.02,0.8417 - 0.019,0.8037 - 0.018
+6,AllFeatures,"['Men', 'Women', 'Hispanic', 'White', 'Black', 'Native', 'Asian', 'Pacific', 'VotingAgeCitizen', 'Poverty', 'ChildPoverty', 'Professional', 'Service', 'Office', 'Construction', 'Production', 'Drive', 'Carpool', 'Transit', 'Walk', 'OtherTransp', 'WorkAtHome', 'MeanCommute', 'Employed', 'PrivateWork', 'PublicWork', 'SelfEmployed', 'FamilyWork', 'Unemployment']",0.8068 - 0.019,0.8068 - 0.019,0.8504 - 0.02,0.6877 - 0.03,0.6599 - 0.02,0.8411 - 0.019,0.8029 - 0.018
